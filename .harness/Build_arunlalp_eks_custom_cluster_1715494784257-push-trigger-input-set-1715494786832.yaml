@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_arunlalp_eks_custom_cluster_1715494784257-push-trigger-input-set
+  identifier: Build_arunlalp_eks_custom_cluster_1715494784257pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_arunlalp_eks_custom_cluster_1715494784257
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
